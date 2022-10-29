@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Silkscreen&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ffbd, #a8f5ff93);
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px 60px;
+    box-shadow: 4px 4px 8px #2773a5;
+    background: linear-gradient(to top left, rgba(233, 199, 180, 0.781), #ffffff60);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    z-index: 4;
+}
+.text {
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    right: 0px;
+    font-size: 100px;
+    color: #04354763;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: #6fbdf11a
+  }
+.text span {
+  color:#2034eb;
+}
+
+
+  h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 0rem;
+    color: #3458bc9c;
+    font-size: 40px;
+  }
+  ul li {
+    padding: 15px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3f4446e8;
+    top: 0px;
+    right: 2.5rem ;
+    list-style: none;
+    background-color: #6b78f01e;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 4px 4px 8px #2773a5;
+    background: linear-gradient(to top left, rgba(233, 199, 180, 0.781), #ffffff60);
+    backdrop-filter: blur(10px);
+}
+ul li:hover{
+    background-color: #082fdbdc;
+    color: rgb(182, 215, 241);
+
+}
+ul li,
+input {
+  cursor: pointer;
+  
+}
+  #submit
+  {
+    display: block;
+    margin: auto;
+    padding: 0.5em 2.0em;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    background-color: #bc343e;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50px;
+  }
+  
+  #submit:hover {
+    background-color: #082fdb6c;
+    color: rgba(144, 196, 238, 0.808);
+  }
+  
+  #submit,
+  label,
+  input {
+    cursor: pointer;
+  }
+  
+#ViewScore {
+    padding: 6px;
+    margin: 70px auto 0;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient( to top right, #0004e47a, #2034eb1a);
+    color: rgba(255, 255, 255, 0.932);
+    font-size: 20px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .score {
+    display: none;
+  }
+  #ViewScore .btn:hover {
+    background-color: #ff8f80ef;
+    color: #ffffffe8;
+    border: 2px solid #e4e4e404;
+  }
+
+
+.circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff);
+    position: absolute;
+}
+
+.c1 {
+    top: 20px;
+    left: 20%;
+}
+
+.c2 {
+    bottom: 20px;
+    right: 20%;
+}
